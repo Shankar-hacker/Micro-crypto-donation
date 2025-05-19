@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\shankar paikira\\Downloads\\micro-crypto-donation-complete\\contracts\\MicroDonation.sol": {
+      "lastModificationDate": 1747150682409,
+      "contentHash": "91bca29852ac8fae365ad9f67a60a652",
+      "sourceName": "contracts/MicroDonation.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "MicroDonation"
+      ]
+    }
+  }
+}

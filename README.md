@@ -128,10 +128,6 @@ This ABI is needed for interacting with the smart contract from your frontend.
 
 ### 📸 Screenshots: ###
 
-![Screenshot 2025-05-14 160437](https://github.com/user-attachments/assets/c9efd5c2-9225-4aea-b454-a9d26e595ca9)
-
-![Screenshot 2025-05-14 160856](https://github.com/user-attachments/assets/27dbbd5c-1422-4918-b557-ada2a3fa7fe1)
-
 
 
 
