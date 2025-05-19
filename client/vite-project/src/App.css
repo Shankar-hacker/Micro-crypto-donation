@@ -1,0 +1,84 @@
+/* App.css */
+
+body, html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #3b0764, #4c1d95, #7e22ce);
+  color: white;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.card {
+  background-color: rgba(30, 27, 75, 0.9);
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 32rem;
+  text-align: center;
+}
+
+.card h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+input[type="text"] {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background-color: #312e81;
+  color: white;
+  border: 1px solid #9333ea;
+  outline: none;
+  width: 100%;
+  transition: box-shadow 0.2s ease;
+}
+
+input[type="text"]::placeholder {
+  color: #cbd5e1;
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 0 0 2px #c084fc;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background: linear-gradient(to right, #9333ea, #4f46e5);
+  border: none;
+  border-radius: 0.75rem;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #4f46e5, #9333ea);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
